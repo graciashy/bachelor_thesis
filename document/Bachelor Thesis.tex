@@ -1,0 +1,45 @@
+%This file is the main structure of Bachelor Thesis
+%This file derived from the XDBAThesis project.
+
+%Author: Shiyao Ge
+%Email:graciahoney@gmail.com
+
+\documentclass[xetex,adobefonts,a4paper]{XDBAthesis}
+%图片的搜索路径
+\setmainfont{Times New Roman}
+\graphicspath{{chapter-utf8/}{figures/}}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\begin{document}
+%%----------------- 封面部分 ----------------- %%
+    \class{13-0911}
+    \schoolnumber{13091104}
+    \title{基于OpenSHMEM的}{并行程序的设计与研究}   %%题目超过14个字把剩下的放到第二个空
+    \college{软件学院}
+    \major{软件工程}
+    \author{葛诗瑶}
+    \advisor{张亮}
+    \maketitle
+
+%%----------------- 前言部分 ----------------- %%
+    \frontmatter
+%    \include{chapter-utf8/abstract}
+    \tableofcontents
+
+%%----------------- 正文部分 ----------------- %%
+    \mainmatter
+    \pagestyle{content}
+    \include{content/chap-intro}
+    \include{content/chap-model}
+    \include{content/chap-parallel_program}
+    \include{content/chap_04}
+    
+    \appendix
+
+
+%%----------------- 附件部分 ----------------- %%
+    \backmatter
+%    \include{chapter-utf8/thanks}
+	\include{content/bib}
+
+\end{document}

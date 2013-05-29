@@ -1,0 +1,4870 @@
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2013.5.27)  27 MAY 2013 23:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**bib.tex
+(./bib.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ piedmontese, polish, portuguese, romanian, romansh, russian, sanskrit, serbian
+, serbianc, slovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, u
+ppersorbian, welsh, loaded.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 1.
+
+
+! LaTeX Error: Environment thebibliography undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{thebibliography}
+                           {2}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{thebibliography}{2
+                             }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (25.475pt too wide) in paragraph at lines 2--3
+[]\OT1/cmr/m/n/10.95 2 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \bibitem{jour:NoC}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.4 \bibitem{jour:NoC}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.4 \bibitem{jour:NoC}
+                      
+I'm forgetting what you said and using zero instead.
+
+\bibcite{jour:NoC}{0}
+! Undefined control sequence.
+l.5 \newblock
+              {Eduard Fernandez-Alonso, David Castells-Rufas, Jaume Joven an...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.6 \newblock
+              {\emph{Survey of NoC and Programming Models Proposals for MPSOC}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 6.
+
+! Undefined control sequence.
+l.7 \newblock
+              {IJCSI International Journal of Computer Science Issues, 2012,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (35.46588pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Eduard
+ []
+
+
+Overfull \hbox (52.4992pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Fernandez-
+ []
+
+
+Overfull \hbox (35.64838pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Alonso,
+ []
+
+
+Overfull \hbox (28.43962pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 David
+ []
+
+
+Overfull \hbox (40.88004pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Castells-
+ []
+
+
+Overfull \hbox (30.32545pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Rufas,
+ []
+
+
+Overfull \hbox (31.17712pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Jaume
+ []
+
+
+Overfull \hbox (27.22293pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Joven
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (24.51587pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Jordi
+ []
+
+
+Overfull \hbox (31.08586pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Carra-
+ []
+
+
+Overfull \hbox (20.68336pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 bina
+ []
+
+
+Overfull \hbox (20.56761pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 Sur-
+ []
+
+
+Overfull \hbox (15.3907pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 vey
+ []
+
+
+Overfull \hbox (8.9546pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 of
+ []
+
+
+Overfull \hbox (21.57137pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 NoC
+ []
+
+
+Overfull \hbox (17.34956pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 and
+ []
+
+
+Overfull \hbox (20.99951pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 Pro-
+ []
+
+
+Overfull \hbox (27.56339pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 gram-
+ []
+
+
+Overfull \hbox (23.50584pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 ming
+ []
+
+
+Overfull \hbox (24.36966pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 Mod-
+ []
+
+
+Overfull \hbox (12.31258pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 els
+ []
+
+
+Overfull \hbox (20.99951pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 Pro-
+ []
+
+
+Overfull \hbox (19.02853pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 pos-
+ []
+
+
+Overfull \hbox (12.87225pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 als
+ []
+
+
+Overfull \hbox (13.57182pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 for
+ []
+
+
+Overfull \hbox (21.16377pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 MP-
+ []
+
+
+Overfull \hbox (22.38652pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10.95 SOC
+ []
+
+
+Overfull \hbox (27.5271pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 IJCSI
+ []
+
+
+Overfull \hbox (13.6875pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 In-
+ []
+
+
+Overfull \hbox (17.06377pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 ter-
+ []
+
+
+Overfull \hbox (15.20834pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 na-
+ []
+
+
+Overfull \hbox (27.37505pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 tional
+ []
+
+
+Overfull \hbox (25.12419pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Jour-
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 nal
+ []
+
+
+Overfull \hbox (8.82085pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 of
+ []
+
+
+Overfull \hbox (26.15836pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Com-
+ []
+
+
+Overfull \hbox (25.58046pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 puter
+ []
+
+
+Overfull \hbox (17.64168pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Sci-
+ []
+
+
+Overfull \hbox (20.68335pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 ence
+ []
+
+
+Overfull \hbox (11.92332pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Is-
+ []
+
+
+Overfull \hbox (22.63002pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 sues,
+ []
+
+
+Overfull \hbox (24.9417pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 2012,
+ []
+
+
+Overfull \hbox (33.48878pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 March,
+ []
+
+
+Overfull \hbox (27.37502pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Vol.9.
+ []
+
+
+Overfull \hbox (11.92332pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 Is-
+ []
+
+
+Overfull \hbox (15.26918pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 sue
+ []
+
+
+Overfull \hbox (8.51668pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 2,
+ []
+
+
+Overfull \hbox (22.2042pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/n/10.95 No.3 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \bibitem{site:openshmem_spec}
+                                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.9 \bibitem{site:openshmem_spec}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.9 \bibitem{site:openshmem_spec}
+                                 
+I'm forgetting what you said and using zero instead.
+
+\bibcite{site:openshmem_spec}{0}
+! Undefined control sequence.
+l.10 \newblock
+               {OpenSHMEM Specification v1.0 Final}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 \newblock
+               {http://openshmem.org/.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (67.6772pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10.95 OpenSHMEM
+ []
+
+
+Overfull \hbox (25.85419pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10.95 Spec-
+ []
+
+
+Overfull \hbox (6.69167pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10.95 i-
+ []
+
+
+Overfull \hbox (9.73334pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10.95 fi-
+ []
+
+
+Overfull \hbox (13.99167pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10.95 ca-
+ []
+
+
+Overfull \hbox (18.85837pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10.95 tion
+ []
+
+
+Overfull \hbox (19.77087pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10.95 v1.0
+ []
+
+
+Overfull \hbox (13.8396pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10.95 Fi-
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10.95 nal
+ []
+
+
+Overfull \hbox (117.49974pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10.95 http://openshmem.org/. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \bibitem{site:shmem_api}
+                             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.13 \bibitem{site:shmem_api}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.13 \bibitem{site:shmem_api}
+                             
+I'm forgetting what you said and using zero instead.
+
+\bibcite{site:shmem_api}{0}
+! Undefined control sequence.
+l.14 \newblock
+               {SHMEM API for parallel programming}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.15 \newblock
+               {http://www.shmem.org/.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (41.82298pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10.95 SHMEM
+ []
+
+
+Overfull \hbox (19.61876pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10.95 API
+ []
+
+
+Overfull \hbox (13.1096pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10.95 for
+ []
+
+
+Overfull \hbox (19.4971pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10.95 par-
+ []
+
+
+Overfull \hbox (12.16667pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10.95 al-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10.95 lel
+ []
+
+
+Overfull \hbox (19.4971pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10.95 pro-
+ []
+
+
+Overfull \hbox (28.01378pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10.95 gram-
+ []
+
+
+Overfull \hbox (23.72504pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10.95 ming
+ []
+
+
+Overfull \hbox (121.4539pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10.95 http://www.shmem.org/. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \bibitem{site:intro_to_mpi}
+                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.17 \bibitem{site:intro_to_mpi}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.17 \bibitem{site:intro_to_mpi}
+                                
+I'm forgetting what you said and using zero instead.
+
+\bibcite{site:intro_to_mpi}{0}
+! Undefined control sequence.
+l.18 \newblock
+               {Introduction to MPI}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.19 \newblock
+               {http://www.citutor.org}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (59.95132pt too wide) in paragraph at lines 18--20
+\OT1/cmr/m/n/10.95 Introduction
+ []
+
+
+Overfull \hbox (9.73335pt too wide) in paragraph at lines 18--20
+\OT1/cmr/m/n/10.95 to
+ []
+
+
+Overfull \hbox (21.44377pt too wide) in paragraph at lines 18--20
+\OT1/cmr/m/n/10.95 MPI
+ []
+
+
+Overfull \hbox (111.69016pt too wide) in paragraph at lines 18--20
+\OT1/cmr/m/n/10.95 http://www.citutor.org 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \bibitem{site:multicore_performance}
+                                         
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.21 \bibitem{site:multicore_performance}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.21 \bibitem{site:multicore_performance}
+                                         
+I'm forgetting what you said and using zero instead.
+
+\bibcite{site:multicore_performance}{0}
+! Undefined control sequence.
+l.22 \newblock
+               {Introduction to Multi-core Performance }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.23 \newblock
+               {http://www.citutor.org}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (59.95132pt too wide) in paragraph at lines 22--24
+\OT1/cmr/m/n/10.95 Introduction
+ []
+
+
+Overfull \hbox (9.73335pt too wide) in paragraph at lines 22--24
+\OT1/cmr/m/n/10.95 to
+ []
+
+
+Overfull \hbox (30.11255pt too wide) in paragraph at lines 22--24
+\OT1/cmr/m/n/10.95 Multi-
+ []
+
+
+Overfull \hbox (19.4971pt too wide) in paragraph at lines 22--24
+\OT1/cmr/m/n/10.95 core
+ []
+
+
+Overfull \hbox (19.95332pt too wide) in paragraph at lines 22--24
+\OT1/cmr/m/n/10.95 Per-
+ []
+
+
+Overfull \hbox (16.7596pt too wide) in paragraph at lines 22--24
+\OT1/cmr/m/n/10.95 for-
+ []
+
+
+Overfull \hbox (30.4167pt too wide) in paragraph at lines 22--24
+\OT1/cmr/m/n/10.95 mance
+ []
+
+
+Overfull \hbox (111.69016pt too wide) in paragraph at lines 22--24
+\OT1/cmr/m/n/10.95 http://www.citutor.org 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \bibitem{site:openmpi}
+                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.25 \bibitem{site:openmpi}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.25 \bibitem{site:openmpi}
+                           
+I'm forgetting what you said and using zero instead.
+
+\bibcite{site:openmpi}{0}
+! Undefined control sequence.
+l.26 \newblock
+               {Open MPI document v1.6.4}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.27 \newblock
+               {http://www.open-mpi.org/doc/}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (25.85422pt too wide) in paragraph at lines 26--28
+\OT1/cmr/m/n/10.95 Open
+ []
+
+
+Overfull \hbox (21.44377pt too wide) in paragraph at lines 26--28
+\OT1/cmr/m/n/10.95 MPI
+ []
+
+
+Overfull \hbox (20.37918pt too wide) in paragraph at lines 26--28
+\OT1/cmr/m/n/10.95 doc-
+ []
+
+
+Overfull \hbox (9.73334pt too wide) in paragraph at lines 26--28
+\OT1/cmr/m/n/10.95 u-
+ []
+
+
+Overfull \hbox (24.02919pt too wide) in paragraph at lines 26--28
+\OT1/cmr/m/n/10.95 ment
+ []
+
+
+Overfull \hbox (28.28755pt too wide) in paragraph at lines 26--28
+\OT1/cmr/m/n/10.95 v1.6.4
+ []
+
+
+Overfull \hbox (87.6001pt too wide) in paragraph at lines 26--28
+\OT1/cmr/m/n/10.95 http://www.open-
+ []
+
+
+Overfull \hbox (64.20967pt too wide) in paragraph at lines 26--28
+\OT1/cmr/m/n/10.95 mpi.org/doc/ 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \bibitem{jour:cci}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \bibitem{jour:cci}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.29 \bibitem{jour:cci}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.29 \bibitem{jour:cci}
+                       
+I'm forgetting what you said and using zero instead.
+
+\bibcite{jour:cci}{0}
+! Undefined control sequence.
+l.30 \newblock
+               {Scott Atchley and David Dillow and Galen Shipman and Patrick...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.31 \newblock
+               {The Common Communication Interface ({CCI})}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.32 \newblock
+               {19th Annual IEEE Symposium on High-Performance Interconnects}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.33 \newblock
+               {(2011.08)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (24.94171pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Scott
+ []
+
+
+Overfull \hbox (26.4625pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Atch-
+ []
+
+
+Overfull \hbox (13.68753pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 ley
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (28.43962pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 David
+ []
+
+
+Overfull \hbox (18.09793pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Dil-
+ []
+
+
+Overfull \hbox (16.12083pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 low
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (28.05942pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Galen
+ []
+
+
+Overfull \hbox (24.9417pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Ship-
+ []
+
+
+Overfull \hbox (20.68336pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 man
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (34.55336pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Patrick
+ []
+
+
+Overfull \hbox (17.10939pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Ge-
+ []
+
+
+Overfull \hbox (12.47084pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 of-
+ []
+
+
+Overfull \hbox (18.58461pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 fray
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (17.4896pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Jef-
+ []
+
+
+Overfull \hbox (18.28046pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 frey
+ []
+
+
+Overfull \hbox (13.0792pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 M.
+ []
+
+
+Overfull \hbox (37.19963pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Squyres
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (33.56483pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 George
+ []
+
+
+Overfull \hbox (33.97546pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Bosilca
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (34.2188pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Ronald
+ []
+
+
+Overfull \hbox (22.81253pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Min-
+ []
+
+
+Overfull \hbox (19.77084pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 nich
+ []
+
+
+Overfull \hbox (18.85835pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 The
+ []
+
+
+Overfull \hbox (26.15836pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Com-
+ []
+
+
+Overfull \hbox (20.68336pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 mon
+ []
+
+
+Overfull \hbox (26.15836pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Com-
+ []
+
+
+Overfull \hbox (18.55417pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 mu-
+ []
+
+
+Overfull \hbox (12.77501pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 ni-
+ []
+
+
+Overfull \hbox (13.99167pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 ca-
+ []
+
+
+Overfull \hbox (18.85837pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 tion
+ []
+
+
+Overfull \hbox (13.6875pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 In-
+ []
+
+
+Overfull \hbox (17.06377pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 ter-
+ []
+
+
+Overfull \hbox (18.55418pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 face
+ []
+
+
+Overfull \hbox (28.28754pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 (CCI)
+ []
+
+
+Overfull \hbox (21.2917pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 19th
+ []
+
+
+Overfull \hbox (17.94585pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 An-
+ []
+
+
+Overfull \hbox (20.37918pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 nual
+ []
+
+
+Overfull \hbox (26.31042pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 IEEE
+ []
+
+
+Overfull \hbox (24.63754pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Sym-
+ []
+
+
+Overfull \hbox (15.51251pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 po-
+ []
+
+
+Overfull \hbox (22.5692pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 sium
+ []
+
+
+Overfull \hbox (11.55835pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 on
+ []
+
+
+Overfull \hbox (26.46252pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 High-
+ []
+
+
+Overfull \hbox (59.82964pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 Performance
+ []
+
+
+Overfull \hbox (13.6875pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 In-
+ []
+
+
+Overfull \hbox (17.06377pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 ter-
+ []
+
+
+Overfull \hbox (20.07501pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 con-
+ []
+
+
+Overfull \hbox (24.3942pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 nects
+ []
+
+
+Overfull \hbox (44.4084pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/n/10.95 (2011.08) 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \bibitem{jour:NIC}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.35 \bibitem{jour:NIC}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.35 \bibitem{jour:NIC}
+                       
+I'm forgetting what you said and using zero instead.
+
+\bibcite{jour:NIC}{0}
+! Undefined control sequence.
+l.36 \newblock
+               {Keith D.Underwood, Michael J.Levenhagen, Ron Brightwell}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.37 \newblock
+               {Evaluating NIC Hardware Requirements to Achieve High Message...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.38 \newblock
+               {ACM, SC07, 2007, November. pp. 10-16}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (26.76672pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Keith
+ []
+
+
+Overfull \hbox (69.22841pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 D.Underwood,
+ []
+
+
+Overfull \hbox (37.10837pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Michael
+ []
+
+
+Overfull \hbox (67.82925pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 J.Levenhagen,
+ []
+
+
+Overfull \hbox (19.61877pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Ron
+ []
+
+
+Overfull \hbox (48.8492pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Brightwell
+ []
+
+
+Overfull \hbox (24.78961pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Eval-
+ []
+
+
+Overfull \hbox (9.73334pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 u-
+ []
+
+
+Overfull \hbox (13.38335pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 at-
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (20.07501pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 NIC
+ []
+
+
+Overfull \hbox (27.70961pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Hard-
+ []
+
+
+Overfull \hbox (22.23459pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 ware
+ []
+
+
+Overfull \hbox (16.57709pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Re-
+ []
+
+
+Overfull \hbox (27.7096pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 quire-
+ []
+
+
+Overfull \hbox (28.34836pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 ments
+ []
+
+
+Overfull \hbox (9.73335pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 to
+ []
+
+
+Overfull \hbox (37.10835pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Achieve
+ []
+
+
+Overfull \hbox (22.81253pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 High
+ []
+
+
+Overfull \hbox (22.87335pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Mes-
+ []
+
+
+Overfull \hbox (20.13585pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 sage
+ []
+
+
+Overfull \hbox (22.66045pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Rate
+ []
+
+
+Overfull \hbox (30.34067pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 PGAS
+ []
+
+
+Overfull \hbox (21.90002pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Sup-
+ []
+
+
+Overfull \hbox (20.40962pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 port
+ []
+
+
+Overfull \hbox (11.55835pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 on
+ []
+
+
+Overfull \hbox (30.11255pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Multi-
+ []
+
+
+Overfull \hbox (22.53877pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Core
+ []
+
+
+Overfull \hbox (20.86584pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Pro-
+ []
+
+
+Overfull \hbox (17.7025pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 ces-
+ []
+
+
+Overfull \hbox (18.4021pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 sors
+ []
+
+
+Overfull \hbox (28.89586pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 ACM,
+ []
+
+
+Overfull \hbox (27.98337pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 SC07,
+ []
+
+
+Overfull \hbox (24.9417pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 2007,
+ []
+
+
+Overfull \hbox (36.50002pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Novem-
+ []
+
+
+Overfull \hbox (18.58461pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 ber.
+ []
+
+
+Overfull \hbox (15.20836pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 pp.
+ []
+
+
+Overfull \hbox (14.6pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 10-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 16 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \bibitem{jour:programming_model}
+                                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.40 \bibitem{jour:programming_model}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.40 \bibitem{jour:programming_model}
+                                     
+I'm forgetting what you said and using zero instead.
+
+\bibcite{jour:programming_model}{0}
+! Undefined control sequence.
+l.41 \newblock
+               {Henry Kasim, Verdi March, Rita Zhang, and Simon See}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.42 \newblock
+               {Survey on Parallel Programming Model}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.43 \newblock
+               {IFIP International Federation for Information Processing,(20...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (29.23047pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 Henry
+ []
+
+
+Overfull \hbox (33.51923pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 Kasim,
+ []
+
+
+Overfull \hbox (25.58043pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 Verdi
+ []
+
+
+Overfull \hbox (33.48878pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 March,
+ []
+
+
+Overfull \hbox (20.83545pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 Rita
+ []
+
+
+Overfull \hbox (32.85005pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 Zhang,
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (12.77501pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 Si-
+ []
+
+
+Overfull \hbox (20.68336pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 mon
+ []
+
+
+Overfull \hbox (15.81668pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 See
+ []
+
+
+Overfull \hbox (20.10544pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 Sur-
+ []
+
+
+Overfull \hbox (16.12086pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 vey
+ []
+
+
+Overfull \hbox (11.55835pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 on
+ []
+
+
+Overfull \hbox (20.56166pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 Par-
+ []
+
+
+Overfull \hbox (12.16667pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 al-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 lel
+ []
+
+
+Overfull \hbox (20.86584pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 Pro-
+ []
+
+
+Overfull \hbox (28.01378pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 gram-
+ []
+
+
+Overfull \hbox (23.72504pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 ming
+ []
+
+
+Overfull \hbox (29.80838pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 Model
+ []
+
+
+Overfull \hbox (22.50835pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 IFIP
+ []
+
+
+Overfull \hbox (13.6875pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 In-
+ []
+
+
+Overfull \hbox (17.06377pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 ter-
+ []
+
+
+Overfull \hbox (15.20834pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 na-
+ []
+
+
+Overfull \hbox (27.37505pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 tional
+ []
+
+
+Overfull \hbox (20.83542pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 Fed-
+ []
+
+
+Overfull \hbox (12.80542pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 er-
+ []
+
+
+Overfull \hbox (9.125pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 a-
+ []
+
+
+Overfull \hbox (18.85837pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 tion
+ []
+
+
+Overfull \hbox (13.1096pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 for
+ []
+
+
+Overfull \hbox (13.6875pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 In-
+ []
+
+
+Overfull \hbox (16.7596pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 for-
+ []
+
+
+Overfull \hbox (18.25002pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 ma-
+ []
+
+
+Overfull \hbox (18.85837pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 tion
+ []
+
+
+Overfull \hbox (20.86584pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 Pro-
+ []
+
+
+Overfull \hbox (22.02167pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 cess-
+ []
+
+
+Overfull \hbox (48.05841pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 ing,(2008)
+ []
+
+
+Overfull \hbox (3.04167pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 .
+ []
+
+
+Overfull \hbox (15.20836pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 pp.
+ []
+
+
+Overfull \hbox (20.07501pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 266-
+ []
+
+
+Overfull \hbox (16.42502pt too wide) in paragraph at lines 41--44
+\OT1/cmr/m/n/10.95 175 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \bibitem{jour:oneside}
+                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.45 \bibitem{jour:oneside}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.45 \bibitem{jour:oneside}
+                           
+I'm forgetting what you said and using zero instead.
+
+\bibcite{jour:oneside}{0}
+! Undefined control sequence.
+l.46 \newblock
+               {Christian Bell, Dan Donachea, Rajesh Nishtala, Ketherine Yel...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.47 \newblock
+               {Optimizing Bandwidth Limited Problems Using One-Sided Commun...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.48 \newblock
+               {IPDPS 2006. 20th International , (2006, April). pp.10 pp. 25...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (44.49965pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Christian
+ []
+
+
+Overfull \hbox (21.74796pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Bell,
+ []
+
+
+Overfull \hbox (19.92294pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Dan
+ []
+
+
+Overfull \hbox (49.42712pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Donachea,
+ []
+
+
+Overfull \hbox (17.18542pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Ra-
+ []
+
+
+Overfull \hbox (18.61502pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 jesh
+ []
+
+
+Overfull \hbox (25.30669pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Nish-
+ []
+
+
+Overfull \hbox (21.2917pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 tala,
+ []
+
+
+Overfull \hbox (36.53047pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Kether-
+ []
+
+
+Overfull \hbox (13.99168pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 ine
+ []
+
+
+Overfull \hbox (28.59167pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Yelick
+ []
+
+
+Overfull \hbox (18.25003pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Op-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 ti-
+ []
+
+
+Overfull \hbox (20.68335pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 miz-
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (29.04796pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Band-
+ []
+
+
+Overfull \hbox (27.37505pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 width
+ []
+
+
+Overfull \hbox (22.66045pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Lim-
+ []
+
+
+Overfull \hbox (18.25003pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 ited
+ []
+
+
+Overfull \hbox (26.94919pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Prob-
+ []
+
+
+Overfull \hbox (21.35252pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 lems
+ []
+
+
+Overfull \hbox (16.18167pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Us-
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (23.1167pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 One-
+ []
+
+
+Overfull \hbox (26.15837pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Sided
+ []
+
+
+Overfull \hbox (26.15836pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Com-
+ []
+
+
+Overfull \hbox (18.55417pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 mu-
+ []
+
+
+Overfull \hbox (12.77501pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 ni-
+ []
+
+
+Overfull \hbox (13.99167pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 ca-
+ []
+
+
+Overfull \hbox (18.85837pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 tion
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (26.79712pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 Over-
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 lap
+ []
+
+
+Overfull \hbox (33.30627pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 IPDPS
+ []
+
+
+Overfull \hbox (24.9417pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 2006.
+ []
+
+
+Overfull \hbox (21.2917pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 20th
+ []
+
+
+Overfull \hbox (13.6875pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 In-
+ []
+
+
+Overfull \hbox (17.06377pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 ter-
+ []
+
+
+Overfull \hbox (15.20834pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 na-
+ []
+
+
+Overfull \hbox (27.37505pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 tional
+ []
+
+
+Overfull \hbox (3.04167pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (29.20004pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 (2006,
+ []
+
+
+Overfull \hbox (31.96797pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 April).
+ []
+
+
+Overfull \hbox (26.15837pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 pp.10
+ []
+
+
+Overfull \hbox (15.20836pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 pp.
+ []
+
+
+Overfull \hbox (14.6pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 25-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 46--49
+\OT1/cmr/m/n/10.95 29 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \bibitem{jour:gshmem}
+                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.50 \bibitem{jour:gshmem}
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.50 \bibitem{jour:gshmem}
+                          
+I'm forgetting what you said and using zero instead.
+
+\bibcite{jour:gshmem}{0}
+! Undefined control sequence.
+l.51 \newblock
+               {Changil Yoon, Vikas Aggarval, Vrishali Hajare, Alan D.George...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.52 \newblock
+               {GSHMEM: A Portable Library for Lightweight Shared-Memory Par...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.53 \newblock
+               {\emph{PGAS'11}, (2011)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (37.10838pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Changil
+ []
+
+
+Overfull \hbox (27.67918pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Yoon,
+ []
+
+
+Overfull \hbox (26.21921pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Vikas
+ []
+
+
+Overfull \hbox (17.33751pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Ag-
+ []
+
+
+Overfull \hbox (18.88876pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 gar-
+ []
+
+
+Overfull \hbox (16.7292pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 val,
+ []
+
+
+Overfull \hbox (15.23874pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Vr-
+ []
+
+
+Overfull \hbox (25.00253pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 ishali
+ []
+
+
+Overfull \hbox (17.33751pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Ha-
+ []
+
+
+Overfull \hbox (21.01794pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 jare,
+ []
+
+
+Overfull \hbox (22.81253pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Alan
+ []
+
+
+Overfull \hbox (48.01277pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 D.George,
+ []
+
+
+Overfull \hbox (21.29172pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Max
+ []
+
+
+Overfull \hbox (39.45047pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Billings-
+ []
+
+
+Overfull \hbox (13.68753pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 ley
+ []
+
+
+Overfull \hbox (12.47083pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 III
+ []
+
+
+Overfull \hbox (26.53857pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 GSH-
+ []
+
+
+Overfull \hbox (30.5688pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 MEM:
+ []
+
+
+Overfull \hbox (8.21251pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 A
+ []
+
+
+Overfull \hbox (40.6367pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Portable
+ []
+
+
+Overfull \hbox (13.53543pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Li-
+ []
+
+
+Overfull \hbox (25.91505pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 brary
+ []
+
+
+Overfull \hbox (13.1096pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 for
+ []
+
+
+Overfull \hbox (56.11877pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Lightweight
+ []
+
+
+Overfull \hbox (36.53046pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Shared-
+ []
+
+
+Overfull \hbox (39.57216pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Memory
+ []
+
+
+Overfull \hbox (20.56166pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Par-
+ []
+
+
+Overfull \hbox (12.16667pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 al-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 lel
+ []
+
+
+Overfull \hbox (20.86584pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 Pro-
+ []
+
+
+Overfull \hbox (28.01378pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 gram-
+ []
+
+
+Overfull \hbox (23.72504pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 ming
+ []
+
+
+Overfull \hbox (47.78735pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/it/10.95 PGAS'11\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (30.41672pt too wide) in paragraph at lines 51--54
+\OT1/cmr/m/n/10.95 (2011) 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \bibitem{jour:intra-node}
+                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.55 \bibitem{jour:intra-node}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.55 \bibitem{jour:intra-node}
+                              
+I'm forgetting what you said and using zero instead.
+
+\bibcite{jour:intra-node}{0}
+! Undefined control sequence.
+l.56 \newblock
+               {Ron Brightwell, Kevin Pedretti}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.57 \newblock
+               {An Itra-Node Implementation of OpenSHMEM Using Virtual Addre...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.58 \newblock
+               {\emph{PGAS '11}, (2011)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (19.61877pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 Ron
+ []
+
+
+Overfull \hbox (51.89087pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 Brightwell,
+ []
+
+
+Overfull \hbox (28.28757pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 Kevin
+ []
+
+
+Overfull \hbox (15.66457pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 Pe-
+ []
+
+
+Overfull \hbox (26.79713pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 dretti
+ []
+
+
+Overfull \hbox (14.29585pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 An
+ []
+
+
+Overfull \hbox (21.62627pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 Itra-
+ []
+
+
+Overfull \hbox (24.9417pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 Node
+ []
+
+
+Overfull \hbox (16.72917pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 Im-
+ []
+
+
+Overfull \hbox (17.64168pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 ple-
+ []
+
+
+Overfull \hbox (23.72502pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 men-
+ []
+
+
+Overfull \hbox (13.38335pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 ta-
+ []
+
+
+Overfull \hbox (18.85837pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 tion
+ []
+
+
+Overfull \hbox (8.82085pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 of
+ []
+
+
+Overfull \hbox (29.50421pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 Open-
+ []
+
+
+Overfull \hbox (17.94585pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 SH-
+ []
+
+
+Overfull \hbox (27.52713pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 MEM
+ []
+
+
+Overfull \hbox (16.18167pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 Us-
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (19.19293pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 Vir-
+ []
+
+
+Overfull \hbox (18.85837pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 tual
+ []
+
+
+Overfull \hbox (17.94585pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 Ad-
+ []
+
+
+Overfull \hbox (23.8771pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 dress
+ []
+
+
+Overfull \hbox (27.37503pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 Space
+ []
+
+
+Overfull \hbox (25.24586pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 Map-
+ []
+
+
+Overfull \hbox (20.68336pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 ping
+ []
+
+
+Overfull \hbox (30.19444pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/it/10.95 PGAS
+ []
+
+
+Overfull \hbox (17.59291pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/it/10.95 '11\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (30.41672pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 (2011) 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \bibitem{jour:upc_on_tile}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.60 \bibitem{jour:upc_on_tile}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.60 \bibitem{jour:upc_on_tile}
+                               
+I'm forgetting what you said and using zero instead.
+
+\bibcite{jour:upc_on_tile}{0}
+! Undefined control sequence.
+l.61 \newblock
+               {Olivier Serres, Ahman Anbar, Saumil Merchant and Tarek El-Gh...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.62 \newblock
+               {Experiences with UPC on TILE-64 Processor}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.63 \newblock
+               {IEEEAero paper#1609, Version 2, (2010, December)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.63 \newblock {IEEEAero paper#
+                               1609, Version 2, (2010, December)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (32.57632pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 Olivier
+ []
+
+
+Overfull \hbox (18.88876pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 Ser-
+ []
+
+
+Overfull \hbox (16.51627pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 res,
+ []
+
+
+Overfull \hbox (17.94585pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 Ah-
+ []
+
+
+Overfull \hbox (20.68336pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 man
+ []
+
+
+Overfull \hbox (17.94585pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 An-
+ []
+
+
+Overfull \hbox (18.88878pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 bar,
+ []
+
+
+Overfull \hbox (32.85005pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 Saumil
+ []
+
+
+Overfull \hbox (22.84294pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 Mer-
+ []
+
+
+Overfull \hbox (26.15834pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 chant
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (27.40544pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 Tarek
+ []
+
+
+Overfull \hbox (14.14375pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 El-
+ []
+
+
+Overfull \hbox (41.13858pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 Ghazawi
+ []
+
+
+Overfull \hbox (16.88127pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 Ex-
+ []
+
+
+Overfull \hbox (14.90417pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 pe-
+ []
+
+
+Overfull \hbox (10.98042pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 ri-
+ []
+
+
+Overfull \hbox (25.00252pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 ences
+ []
+
+
+Overfull \hbox (21.2917pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 with
+ []
+
+
+Overfull \hbox (23.57294pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 UPC
+ []
+
+
+Overfull \hbox (11.55835pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 on
+ []
+
+
+Overfull \hbox (29.80835pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 TILE-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 64
+ []
+
+
+Overfull \hbox (20.86584pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 Pro-
+ []
+
+
+Overfull \hbox (17.7025pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 ces-
+ []
+
+
+Overfull \hbox (14.08293pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 sor
+ []
+
+
+Overfull \hbox (49.15337pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 IEEEAero
+ []
+
+
+Overfull \hbox (15.20834pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 pa-
+ []
+
+
+Overfull \hbox (40.48463pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 per1609,
+ []
+
+
+Overfull \hbox (20.10541pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 Ver-
+ []
+
+
+Overfull \hbox (18.91919pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 sion
+ []
+
+
+Overfull \hbox (8.51668pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 2,
+ []
+
+
+Overfull \hbox (29.20004pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 (2010,
+ []
+
+
+Overfull \hbox (16.88126pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 De-
+ []
+
+
+Overfull \hbox (22.50835pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 cem-
+ []
+
+
+Overfull \hbox (19.80128pt too wide) in paragraph at lines 61--64
+\OT1/cmr/m/n/10.95 ber) 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \bibitem{jour:tshmem}
+                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.65 \bibitem{jour:tshmem}
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.65 \bibitem{jour:tshmem}
+                          
+I'm forgetting what you said and using zero instead.
+
+\bibcite{jour:tshmem}{0}
+! Undefined control sequence.
+l.66 \newblock
+               {Bryant C. Lam, Alan D. George, Herman Lam}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.67 \newblock
+               {TSHMEM: Shared-Memory Parallel Computing on Tilera Many-Core...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.68 \newblock
+               {\emph{PGAS' 12}, (2012)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (33.03255pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 Bryant
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 C.
+ []
+
+
+Overfull \hbox (24.48546pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 Lam,
+ []
+
+
+Overfull \hbox (22.81253pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 Alan
+ []
+
+
+Overfull \hbox (11.40627pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 D.
+ []
+
+
+Overfull \hbox (36.6065pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 George,
+ []
+
+
+Overfull \hbox (21.01793pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 Her-
+ []
+
+
+Overfull \hbox (20.68336pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 man
+ []
+
+
+Overfull \hbox (21.44379pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 Lam
+ []
+
+
+Overfull \hbox (52.773pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 TSHMEM:
+ []
+
+
+Overfull \hbox (36.53046pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 Shared-
+ []
+
+
+Overfull \hbox (39.57216pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 Memory
+ []
+
+
+Overfull \hbox (20.56166pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 Par-
+ []
+
+
+Overfull \hbox (12.16667pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 al-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 lel
+ []
+
+
+Overfull \hbox (26.15836pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 Com-
+ []
+
+
+Overfull \hbox (20.07503pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 put-
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (11.55835pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 on
+ []
+
+
+Overfull \hbox (28.62212pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 Tilera
+ []
+
+
+Overfull \hbox (30.72087pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 Many-
+ []
+
+
+Overfull \hbox (22.53877pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 Core
+ []
+
+
+Overfull \hbox (20.86584pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 Pro-
+ []
+
+
+Overfull \hbox (17.7025pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 ces-
+ []
+
+
+Overfull \hbox (18.4021pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 sors
+ []
+
+
+Overfull \hbox (33.55241pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/it/10.95 PGAS'
+ []
+
+
+Overfull \hbox (14.23494pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/it/10.95 12\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (30.41672pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10.95 (2012) 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \bibitem{book:computer_architecture}
+                                         
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.70 \bibitem{book:computer_architecture}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.70 \bibitem{book:computer_architecture}
+                                         
+I'm forgetting what you said and using zero instead.
+
+\bibcite{book:computer_architecture}{0}
+! Undefined control sequence.
+l.71 \newblock
+               {John L.Hennessy, David A.Patterson}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.72 \newblock
+               {Computer Architecture}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.73 \newblock
+               {Fifth Edition}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.74 \newblock
+               {USA: Morgan Kaufmann Publishers, Elsevier}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.75 \newblock
+               {(2012). pp. 344-426}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (23.26878pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 John
+ []
+
+
+Overfull \hbox (56.54465pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 L.Hennessy,
+ []
+
+
+Overfull \hbox (28.43962pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 David
+ []
+
+
+Overfull \hbox (57.42673pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 A.Patterson
+ []
+
+
+Overfull \hbox (26.15836pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 Com-
+ []
+
+
+Overfull \hbox (25.58046pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 puter
+ []
+
+
+Overfull \hbox (16.15126pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 Ar-
+ []
+
+
+Overfull \hbox (17.3375pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 chi-
+ []
+
+
+Overfull \hbox (17.64168pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 tec-
+ []
+
+
+Overfull \hbox (19.49712pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 ture
+ []
+
+
+Overfull \hbox (23.87714pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 Fifth
+ []
+
+
+Overfull \hbox (20.2271pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 Edi-
+ []
+
+
+Overfull \hbox (18.85837pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 tion
+ []
+
+
+Overfull \hbox (25.55003pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 USA:
+ []
+
+
+Overfull \hbox (23.45128pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 Mor-
+ []
+
+
+Overfull \hbox (17.03336pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 gan
+ []
+
+
+Overfull \hbox (27.07088pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 Kauf-
+ []
+
+
+Overfull \hbox (26.76671pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 mann
+ []
+
+
+Overfull \hbox (23.26877pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 Pub-
+ []
+
+
+Overfull \hbox (20.13585pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 lish-
+ []
+
+
+Overfull \hbox (16.51627pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 ers,
+ []
+
+
+Overfull \hbox (14.14375pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 El-
+ []
+
+
+Overfull \hbox (12.83583pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 se-
+ []
+
+
+Overfull \hbox (17.97629pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 vier
+ []
+
+
+Overfull \hbox (33.45839pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 (2012).
+ []
+
+
+Overfull \hbox (15.20836pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 pp.
+ []
+
+
+Overfull \hbox (20.07501pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 344-
+ []
+
+
+Overfull \hbox (16.42502pt too wide) in paragraph at lines 71--76
+\OT1/cmr/m/n/10.95 426 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \bibitem{book:openmp}
+                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.77 \bibitem{book:openmp}
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.77 \bibitem{book:openmp}
+                          
+I'm forgetting what you said and using zero instead.
+
+\bibcite{book:openmp}{0}
+! Undefined control sequence.
+l.78 \newblock
+               {Barbara Chapman, Gabriele Jost, Ruud van der Pas}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.79 \newblock
+               {Using OpenMP, Portable Shared Memory Parallel Programming}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.80 \newblock
+               {USA: Massachusetts Institute of Technology
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.82 \newblock
+               {(2007). pp. 1-124}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (38.84215pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Barbara
+ []
+
+
+Overfull \hbox (29.20003pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Chap-
+ []
+
+
+Overfull \hbox (23.72504pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 man,
+ []
+
+
+Overfull \hbox (40.25652pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Gabriele
+ []
+
+
+Overfull \hbox (22.72128pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Jost,
+ []
+
+
+Overfull \hbox (26.31046pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Ruud
+ []
+
+
+Overfull \hbox (16.7292pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 van
+ []
+
+
+Overfull \hbox (15.23877pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 der
+ []
+
+
+Overfull \hbox (16.94208pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Pas
+ []
+
+
+Overfull \hbox (16.18167pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Us-
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (45.47298pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 OpenMP,
+ []
+
+
+Overfull \hbox (40.6367pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Portable
+ []
+
+
+Overfull \hbox (32.88046pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Shared
+ []
+
+
+Overfull \hbox (27.6792pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Mem-
+ []
+
+
+Overfull \hbox (15.54295pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 ory
+ []
+
+
+Overfull \hbox (20.56166pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Par-
+ []
+
+
+Overfull \hbox (12.16667pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 al-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 lel
+ []
+
+
+Overfull \hbox (20.86584pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Pro-
+ []
+
+
+Overfull \hbox (28.01378pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 gram-
+ []
+
+
+Overfull \hbox (23.72504pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 ming
+ []
+
+
+Overfull \hbox (25.55003pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 USA:
+ []
+
+
+Overfull \hbox (23.48169pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Mas-
+ []
+
+
+Overfull \hbox (48.24086pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 sachusetts
+ []
+
+
+Overfull \hbox (13.6875pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 In-
+ []
+
+
+Overfull \hbox (15.26918pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 sti-
+ []
+
+
+Overfull \hbox (19.4667pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 tute
+ []
+
+
+Overfull \hbox (8.82085pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 of
+ []
+
+
+Overfull \hbox (26.15831pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Tech-
+ []
+
+
+Overfull \hbox (18.25002pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 nol-
+ []
+
+
+Overfull \hbox (16.7292pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 ogy
+ []
+
+
+Overfull \hbox (23.26877pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 Pub-
+ []
+
+
+Overfull \hbox (16.48586pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 lish
+ []
+
+
+Overfull \hbox (33.45839pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 (2007).
+ []
+
+
+Overfull \hbox (15.20836pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 pp.
+ []
+
+
+Overfull \hbox (9.125pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 1-
+ []
+
+
+Overfull \hbox (16.42502pt too wide) in paragraph at lines 78--83
+\OT1/cmr/m/n/10.95 124 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 \bibitem{book:chen}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.84 \bibitem{book:chen}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.84 \bibitem{book:chen}
+                        
+I'm forgetting what you said and using zero instead.
+
+\bibcite{book:chen}{0}
+! Undefined control sequence.
+l.85 \newblock
+               {陈国良}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 陈 in font cmr10!
+Missing character: There is no 国 in font cmr10!
+Missing character: There is no 良 in font cmr10!
+! Undefined control sequence.
+l.86 \newblock
+               {并行算法的设计与分析}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 并 in font cmr10!
+Missing character: There is no 行 in font cmr10!
+Missing character: There is no 算 in font cmr10!
+Missing character: There is no 法 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 设 in font cmr10!
+Missing character: There is no 计 in font cmr10!
+Missing character: There is no 与 in font cmr10!
+Missing character: There is no 分 in font cmr10!
+Missing character: There is no 析 in font cmr10!
+! Undefined control sequence.
+l.87 \newblock
+               {北京：高等教育出版社}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 北 in font cmr10!
+Missing character: There is no 京 in font cmr10!
+Missing character: There is no ： in font cmr10!
+Missing character: There is no 高 in font cmr10!
+Missing character: There is no 等 in font cmr10!
+Missing character: There is no 教 in font cmr10!
+Missing character: There is no 育 in font cmr10!
+Missing character: There is no 出 in font cmr10!
+Missing character: There is no 版 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+! Undefined control sequence.
+l.88 \newblock
+               {2002.11}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (35.89171pt too wide) in paragraph at lines 85--89
+\OT1/cmr/m/n/10.95 2002.11 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 \bibitem{book:intro}
+                         
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.90 \bibitem{book:intro}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.90 \bibitem{book:intro}
+                         
+I'm forgetting what you said and using zero instead.
+
+\bibcite{book:intro}{0}
+! Undefined control sequence.
+l.91 \newblock
+               {Peter Pacheco}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.92 \newblock
+               {An introduction to Parallel computing}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.93 \newblock
+               {USA: Morgan Kaufmann Publishers, Elsevier}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.94 \newblock
+               {(2011)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (25.42834pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 Peter
+ []
+
+
+Overfull \hbox (38.47708pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 Pacheco
+ []
+
+
+Overfull \hbox (14.29585pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 An
+ []
+
+
+Overfull \hbox (12.77501pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 in-
+ []
+
+
+Overfull \hbox (17.6721pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 tro-
+ []
+
+
+Overfull \hbox (20.68335pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 duc-
+ []
+
+
+Overfull \hbox (18.85837pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 tion
+ []
+
+
+Overfull \hbox (9.73335pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 to
+ []
+
+
+Overfull \hbox (20.56166pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 Par-
+ []
+
+
+Overfull \hbox (12.16667pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 al-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 lel
+ []
+
+
+Overfull \hbox (23.11668pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 com-
+ []
+
+
+Overfull \hbox (20.07503pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 put-
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (25.55003pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 USA:
+ []
+
+
+Overfull \hbox (23.45128pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 Mor-
+ []
+
+
+Overfull \hbox (17.03336pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 gan
+ []
+
+
+Overfull \hbox (27.07088pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 Kauf-
+ []
+
+
+Overfull \hbox (26.76671pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 mann
+ []
+
+
+Overfull \hbox (23.26877pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 Pub-
+ []
+
+
+Overfull \hbox (20.13585pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 lish-
+ []
+
+
+Overfull \hbox (16.51627pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 ers,
+ []
+
+
+Overfull \hbox (14.14375pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 El-
+ []
+
+
+Overfull \hbox (12.83583pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 se-
+ []
+
+
+Overfull \hbox (17.97629pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 vier
+ []
+
+
+Overfull \hbox (30.41672pt too wide) in paragraph at lines 91--95
+\OT1/cmr/m/n/10.95 (2011) 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 \bibitem {book: para_arch}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.96 \bibitem {book: para_arch}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.96 \bibitem {book: para_arch}
+                               
+I'm forgetting what you said and using zero instead.
+
+\bibcite{book: para_arch}{0}
+! Undefined control sequence.
+l.97 \newblock
+               {David Culler,Jaswinder Pal Singh, Anoop Gupta}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.98 \newblock
+               {USA: Morgan Kaufmann Publishers, Elsevier}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.99 \newblock
+               {(1997)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (28.43962pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 David
+ []
+
+
+Overfull \hbox (79.96552pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 Culler,Jaswinder
+ []
+
+
+Overfull \hbox (15.66458pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 Pal
+ []
+
+
+Overfull \hbox (29.80838pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 Singh,
+ []
+
+
+Overfull \hbox (31.63338pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 Anoop
+ []
+
+
+Overfull \hbox (30.49277pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 Gupta
+ []
+
+
+Overfull \hbox (25.55003pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 USA:
+ []
+
+
+Overfull \hbox (23.45128pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 Mor-
+ []
+
+
+Overfull \hbox (17.03336pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 gan
+ []
+
+
+Overfull \hbox (27.07088pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 Kauf-
+ []
+
+
+Overfull \hbox (26.76671pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 mann
+ []
+
+
+Overfull \hbox (23.26877pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 Pub-
+ []
+
+
+Overfull \hbox (20.13585pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 lish-
+ []
+
+
+Overfull \hbox (16.51627pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 ers,
+ []
+
+
+Overfull \hbox (14.14375pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 El-
+ []
+
+
+Overfull \hbox (12.83583pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 se-
+ []
+
+
+Overfull \hbox (17.97629pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 vier
+ []
+
+
+Overfull \hbox (30.41672pt too wide) in paragraph at lines 97--100
+\OT1/cmr/m/n/10.95 (1997) 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 ...{book:encyclopedia_of_parallel_computing}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.101 ...{book:encyclopedia_of_parallel_computing}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.101 ...{book:encyclopedia_of_parallel_computing}
+                                                  
+I'm forgetting what you said and using zero instead.
+
+\bibcite{book:encyclopedia_of_parallel_computing}{0}
+! Undefined control sequence.
+l.102 \newblock
+                {Stephen W. Poole, Oscar Hernandez, Jeffery A. Kuehn, Galen ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.103 \newblock
+                {Encyclopedia of Parallel Computing, OpenSHMEM - Toward a Un...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.104 \newblock
+                {US: Springer, (2011).pp. 1379-1391}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (38.32506pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Stephen
+ []
+
+
+Overfull \hbox (14.29585pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 W.
+ []
+
+
+Overfull \hbox (29.3521pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Poole,
+ []
+
+
+Overfull \hbox (16.48586pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Os-
+ []
+
+
+Overfull \hbox (14.63043pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 car
+ []
+
+
+Overfull \hbox (21.01793pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Her-
+ []
+
+
+Overfull \hbox (21.29169pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 nan-
+ []
+
+
+Overfull \hbox (18.85835pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 dez,
+ []
+
+
+Overfull \hbox (17.4896pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Jef-
+ []
+
+
+Overfull \hbox (18.28046pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 fery
+ []
+
+
+Overfull \hbox (11.25418pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 A.
+ []
+
+
+Overfull \hbox (34.67506pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Kuehn,
+ []
+
+
+Overfull \hbox (28.05942pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Galen
+ []
+
+
+Overfull \hbox (13.0792pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 M.
+ []
+
+
+Overfull \hbox (24.9417pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Ship-
+ []
+
+
+Overfull \hbox (23.72504pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 man,
+ []
+
+
+Overfull \hbox (17.94585pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 An-
+ []
+
+
+Overfull \hbox (27.37505pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 thony
+ []
+
+
+Overfull \hbox (21.93044pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Cur-
+ []
+
+
+Overfull \hbox (14.66086pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 tis,
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (21.32213pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Karl
+ []
+
+
+Overfull \hbox (29.35211pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Feind.
+ []
+
+
+Overfull \hbox (17.18542pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 En-
+ []
+
+
+Overfull \hbox (14.29585pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 cy-
+ []
+
+
+Overfull \hbox (17.03334pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 clo-
+ []
+
+
+Overfull \hbox (14.90417pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 pe-
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 dia
+ []
+
+
+Overfull \hbox (8.82085pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 of
+ []
+
+
+Overfull \hbox (20.56166pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Par-
+ []
+
+
+Overfull \hbox (12.16667pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 al-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 lel
+ []
+
+
+Overfull \hbox (26.15836pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Com-
+ []
+
+
+Overfull \hbox (20.07503pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 put-
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 ing,
+ []
+
+
+Overfull \hbox (29.50421pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Open-
+ []
+
+
+Overfull \hbox (17.94585pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 SH-
+ []
+
+
+Overfull \hbox (27.52713pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 MEM
+ []
+
+
+Overfull \hbox (3.65pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 -
+ []
+
+
+Overfull \hbox (16.12082pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 To-
+ []
+
+
+Overfull \hbox (23.45126pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 ward
+ []
+
+
+Overfull \hbox (5.475pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 a
+ []
+
+
+Overfull \hbox (20.98752pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Uni-
+ []
+
+
+Overfull \hbox (17.03336pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 fied
+ []
+
+
+Overfull \hbox (26.31046pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 RMA
+ []
+
+
+Overfull \hbox (29.80838pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Model
+ []
+
+
+Overfull \hbox (17.33752pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 US:
+ []
+
+
+Overfull \hbox (43.25256pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 Springer,
+ []
+
+
+Overfull \hbox (48.66675pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 (2011).pp.
+ []
+
+
+Overfull \hbox (25.55002pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 1379-
+ []
+
+
+Overfull \hbox (21.90002pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/n/10.95 1391 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 \bibitem{book:encyclopedia}
+                                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.106 \bibitem{book:encyclopedia}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.106 \bibitem{book:encyclopedia}
+                                 
+I'm forgetting what you said and using zero instead.
+
+\bibcite{book:encyclopedia}{0}
+! Undefined control sequence.
+l.107 \newblock
+                {David Padua, etc.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 \newblock
+                {Encyclopedia of Parallel Computing}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.109 \newblock
+                {US：Springer}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ： in font cmr10!
+! Undefined control sequence.
+l.110 \newblock
+                {(2011). pp. 1539-1544, pp.1812}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (28.43962pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 David
+ []
+
+
+Overfull \hbox (33.30627pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 Padua,
+ []
+
+
+Overfull \hbox (17.03336pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 etc.
+ []
+
+
+Overfull \hbox (17.18542pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 En-
+ []
+
+
+Overfull \hbox (14.29585pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 cy-
+ []
+
+
+Overfull \hbox (17.03334pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 clo-
+ []
+
+
+Overfull \hbox (14.90417pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 pe-
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 dia
+ []
+
+
+Overfull \hbox (8.82085pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 of
+ []
+
+
+Overfull \hbox (20.56166pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 Par-
+ []
+
+
+Overfull \hbox (12.16667pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 al-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 lel
+ []
+
+
+Overfull \hbox (26.15836pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 Com-
+ []
+
+
+Overfull \hbox (20.07503pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 put-
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (54.50674pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 USSpringer
+ []
+
+
+Overfull \hbox (33.45839pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 (2011).
+ []
+
+
+Overfull \hbox (15.20836pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 pp.
+ []
+
+
+Overfull \hbox (25.55002pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 1539-
+ []
+
+
+Overfull \hbox (24.9417pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 1544,
+ []
+
+
+Overfull \hbox (37.10838pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10.95 pp.1812 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 \bibitem{jour:hybrid}
+                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.112 \bibitem{jour:hybrid}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.112 \bibitem{jour:hybrid}
+                           
+I'm forgetting what you said and using zero instead.
+
+\bibcite{jour:hybrid}{0}
+! Undefined control sequence.
+l.113 \newblock
+                Rabenseifner R, Hager G, Jost G.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.114 \newblock
+                {Hybrid MPI/OpenMP parallel programming on clusters of multi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.115 \newblock
+                {Parallel, Distributed and Network-based Processing, 2009 17...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (61.68507pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 Rabenseifner
+ []
+
+
+Overfull \hbox (11.1021pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 R,
+ []
+
+
+Overfull \hbox (28.31795pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 Hager
+ []
+
+
+Overfull \hbox (11.6344pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 G,
+ []
+
+
+Overfull \hbox (19.67961pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 Jost
+ []
+
+
+Overfull \hbox (11.6344pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 G.
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 Hy-
+ []
+
+
+Overfull \hbox (19.49712pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 brid
+ []
+
+
+Overfull \hbox (70.2626pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 MPI/OpenMP
+ []
+
+
+Overfull \hbox (19.4971pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 par-
+ []
+
+
+Overfull \hbox (12.16667pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 al-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 lel
+ []
+
+
+Overfull \hbox (19.4971pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 pro-
+ []
+
+
+Overfull \hbox (28.01378pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 gram-
+ []
+
+
+Overfull \hbox (23.72504pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 ming
+ []
+
+
+Overfull \hbox (11.55835pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 on
+ []
+
+
+Overfull \hbox (21.96085pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 clus-
+ []
+
+
+Overfull \hbox (17.73294pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 ters
+ []
+
+
+Overfull \hbox (8.82085pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 of
+ []
+
+
+Overfull \hbox (28.89586pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 multi-
+ []
+
+
+Overfull \hbox (19.4971pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 core
+ []
+
+
+Overfull \hbox (23.57295pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 SMP
+ []
+
+
+Overfull \hbox (41.12338pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 nodes[C]
+ []
+
+
+Overfull \hbox (20.56166pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 Par-
+ []
+
+
+Overfull \hbox (12.16667pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 al-
+ []
+
+
+Overfull \hbox (13.99168pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 lel,
+ []
+
+
+Overfull \hbox (19.37543pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 Dis-
+ []
+
+
+Overfull \hbox (38.96382pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 tributed
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (43.83044pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 Network-
+ []
+
+
+Overfull \hbox (26.82753pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 based
+ []
+
+
+Overfull \hbox (20.86584pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 Pro-
+ []
+
+
+Overfull \hbox (22.02167pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 cess-
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 ing,
+ []
+
+
+Overfull \hbox (21.90002pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 2009
+ []
+
+
+Overfull \hbox (21.2917pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 17th
+ []
+
+
+Overfull \hbox (17.18542pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 Eu-
+ []
+
+
+Overfull \hbox (25.58044pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 romi-
+ []
+
+
+Overfull \hbox (14.63043pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 cro
+ []
+
+
+Overfull \hbox (13.6875pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 In-
+ []
+
+
+Overfull \hbox (17.06377pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 ter-
+ []
+
+
+Overfull \hbox (15.20834pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 na-
+ []
+
+
+Overfull \hbox (27.37505pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 tional
+ []
+
+
+Overfull \hbox (23.11668pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 Con-
+ []
+
+
+Overfull \hbox (16.15126pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 fer-
+ []
+
+
+Overfull \hbox (20.68335pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 ence
+ []
+
+
+Overfull \hbox (14.60002pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 on.
+ []
+
+
+Overfull \hbox (29.3521pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 IEEE,
+ []
+
+
+Overfull \hbox (33.45839pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 (2009).
+ []
+
+
+Overfull \hbox (15.20836pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 pp.
+ []
+
+
+Overfull \hbox (20.07501pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 427-
+ []
+
+
+Overfull \hbox (19.46669pt too wide) in paragraph at lines 113--116
+\OT1/cmr/m/n/10.95 436. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 \bibitem{book:sourcebook}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.117 \bibitem{book:sourcebook}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.117 \bibitem{book:sourcebook}
+                               
+I'm forgetting what you said and using zero instead.
+
+\bibcite{book:sourcebook}{0}
+! Undefined control sequence.
+l.118 \newblock
+                {Dongarra J J, Foster I, Fox G, et al.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.119 \newblock
+                {Sourcebook of parallel computing[M].}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.120 \newblock
+                {San Francisco: Morgan Kaufmann Publishers, (2003)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (44.92548pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 Dongarra
+ []
+
+
+Overfull \hbox (5.62709pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 J
+ []
+
+
+Overfull \hbox (8.66876pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 J,
+ []
+
+
+Overfull \hbox (19.67958pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 Fos-
+ []
+
+
+Overfull \hbox (13.41377pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 ter
+ []
+
+
+Overfull \hbox (6.99583pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 I,
+ []
+
+
+Overfull \hbox (17.18542pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 Fox
+ []
+
+
+Overfull \hbox (11.6344pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 G,
+ []
+
+
+Overfull \hbox (9.12502pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 et
+ []
+
+
+Overfull \hbox (11.55835pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 al.
+ []
+
+
+Overfull \hbox (35.31378pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 Source-
+ []
+
+
+Overfull \hbox (23.42088pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 book
+ []
+
+
+Overfull \hbox (8.82085pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 of
+ []
+
+
+Overfull \hbox (19.4971pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 par-
+ []
+
+
+Overfull \hbox (12.16667pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 al-
+ []
+
+
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 lel
+ []
+
+
+Overfull \hbox (23.11668pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 com-
+ []
+
+
+Overfull \hbox (20.07503pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 put-
+ []
+
+
+Overfull \hbox (33.76256pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 ing[M].
+ []
+
+
+Overfull \hbox (17.6417pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 San
+ []
+
+
+Overfull \hbox (25.73251pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 Fran-
+ []
+
+
+Overfull \hbox (25.61086pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 cisco:
+ []
+
+
+Overfull \hbox (23.45128pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 Mor-
+ []
+
+
+Overfull \hbox (17.03336pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 gan
+ []
+
+
+Overfull \hbox (27.07088pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 Kauf-
+ []
+
+
+Overfull \hbox (26.76671pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 mann
+ []
+
+
+Overfull \hbox (23.26877pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 Pub-
+ []
+
+
+Overfull \hbox (20.13585pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 lish-
+ []
+
+
+Overfull \hbox (16.51627pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 ers,
+ []
+
+
+Overfull \hbox (30.41672pt too wide) in paragraph at lines 118--121
+\OT1/cmr/m/n/10.95 (2003) 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 \bibitem{book:zhang}
+                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.122 \bibitem{book:zhang}
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.122 \bibitem{book:zhang}
+                          
+I'm forgetting what you said and using zero instead.
+
+\bibcite{book:zhang}{0}
+! Undefined control sequence.
+l.123 \newblock
+                {张林波, 并行计算导论[M], 清华大学出版社有�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 张 in font cmr10!
+Missing character: There is no 林 in font cmr10!
+Missing character: There is no 波 in font cmr10!
+Missing character: There is no 并 in font cmr10!
+Missing character: There is no 行 in font cmr10!
+Missing character: There is no 计 in font cmr10!
+Missing character: There is no 算 in font cmr10!
+Missing character: There is no 导 in font cmr10!
+Missing character: There is no 论 in font cmr10!
+Missing character: There is no 清 in font cmr10!
+Missing character: There is no 华 in font cmr10!
+Missing character: There is no 大 in font cmr10!
+Missing character: There is no 学 in font cmr10!
+Missing character: There is no 出 in font cmr10!
+Missing character: There is no 版 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 有 in font cmr10!
+Missing character: There is no 限 in font cmr10!
+Missing character: There is no 公 in font cmr10!
+Missing character: There is no 司 in font cmr10!
+
+! LaTeX Error: \begin{document} ended by \end{thebibliography}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 \end{thebibliography}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.124 \end{thebibliography}
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+! Emergency stop.
+<*> bib.tex
+           
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 14 strings out of 493994
+ 146 string characters out of 3150335
+ 62136 words of memory out of 3000000
+ 3376 multiletter control sequences out of 15000+200000
+ 4286 words of font info for 16 fonts, out of 3000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 16i,4n,10p,152b,115s stack positions out of 5000i,500n,10000p,200000b,50000s
+Output written on bib.pdf (1 page).

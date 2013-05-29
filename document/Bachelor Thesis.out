@@ -1,0 +1,49 @@
+\BOOKMARK [0][-]{chapter.1}{第一章  绪论}{}% 1
+\BOOKMARK [1][-]{section.1.1}{1.1 题目背景介绍}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 并行计算}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{1.1.2 并行软硬件的发展}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{1.1.3 并行技术的应用场景}{section.1.1}% 5
+\BOOKMARK [1][-]{section.1.2}{1.2 国内外研究现状}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1\040PGAS}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 SHMEM与GSHMEM,TSHMEM}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3\040GASNet}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.4}{1.2.4 Tilera众核平台}{section.1.2}% 10
+\BOOKMARK [1][-]{section.1.3}{1.3 研究方法与设计思路}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{第二章  并行计算模型的比较}{}% 12
+\BOOKMARK [1][-]{section.2.1}{2.1 并行计算模型综述}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{2.2\040MPI}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 内存模型}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 编程模型}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 执行模型}{section.2.2}% 17
+\BOOKMARK [1][-]{section.2.3}{2.3\040OpenMP}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 内存模型}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 编程模型}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.3}{2.3.3 执行模型}{section.2.3}% 21
+\BOOKMARK [1][-]{section.2.4}{2.4\040OpenSHMEM}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 内存模型}{section.2.4}% 23
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 编程模型}{section.2.4}% 24
+\BOOKMARK [2][-]{subsection.2.4.3}{2.4.3 执行模型}{section.2.4}% 25
+\BOOKMARK [1][-]{section.2.5}{2.5 OpenSHMEM的内容和特性}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.5.1}{2.5.1 PGAS模型}{section.2.5}% 27
+\BOOKMARK [2][-]{subsection.2.5.2}{2.5.2 单端通信模型}{section.2.5}% 28
+\BOOKMARK [0][-]{chapter.3}{第三章  并行程序设计}{}% 29
+\BOOKMARK [1][-]{section.3.1}{3.1 并行程序设计基础}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.2}{3.2 并行算法实现示例}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 矩阵乘法串行版本}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 简单的矩阵乘法并行算法}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 矩阵乘法的Connon算法}{section.3.2}% 34
+\BOOKMARK [1][-]{section.3.3}{3.3 并行程序优化度量}{chapter.3}% 35
+\BOOKMARK [0][-]{chapter.4}{第四章  OpenSHMEM在Tilera平台上的实现框架}{}% 36
+\BOOKMARK [1][-]{section.4.1}{4.1 Tilera Gx8036平台简介}{chapter.4}% 37
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Tile-Gx36平台的片上网络}{section.4.1}% 38
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Tile-Gx36平台的内存体系}{section.4.1}% 39
+\BOOKMARK [1][-]{section.4.2}{4.2 平台性能测试设计}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Common Memory的性能测试}{section.4.2}% 41
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Spin与Barrier同步原语的延迟性能测试}{section.4.2}% 42
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 UDN用户空间中断性能测试}{section.4.2}% 43
+\BOOKMARK [2][-]{subsection.4.2.4}{4.2.4 UDN性能测试}{section.4.2}% 44
+\BOOKMARK [1][-]{section.4.3}{4.3 OpenSHMEM实现设计}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 环境建立}{section.4.3}% 46
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 put与get}{section.4.3}% 47
+\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3 集体操作}{section.4.3}% 48
+\BOOKMARK [0][-]{appendix*.2}{参考文献}{}% 49

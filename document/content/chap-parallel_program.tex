@@ -1,0 +1,184 @@
+\chapter{并行程序设计}
+\label{chap:parallel_programming}
+\section{并行程序设计基础}
+并行算法是适合在并行机上实现，遵从某一种编程模型，实现将任务或数据分块执行处理的算法，一个好的并行算法应该具备发挥问题解本身和并行机并行处理潜能的能力。
+
+并行计算机的出现是来源于问题域本身存在的内在并行度这一事实，因此，在设计并行程序的时候，充分的发掘问题域本身的可并行部分是并行计算机提高性能的关键，而并行算法作为程序开发的基础，自然也有举足轻重的地位\cite{book:zhang}。
+
+而根据Amdahl定律\cite{book:intro},在并行算法提出和实现的早期，如何识别和并行化可并行化部分是程序实现的主要工作，而这样的性能提升实际上十分有限，进一步的优化需要仔细分析问题域增大可并行部分比例，有时甚至需要完全修改算法结构。
+
+设计并行程序时，需要考虑以下四个方面的问题。首先，必须分析和识别出计算过程中可以并行的部分；其次，需要选择一种分解策略，将步骤或者数据进行分解从而可以跑在多个进程上；然后，需要具体的实现设计好的程序，实现时需要确定编程方法和实现接口；最后，根据以上的分析和设计的程序选择实现风格和语言。
+
+在本节，仅围绕适合OpenSHMEM实现的方式，研究探讨相关的并行技术和原则。
+
+如上讨论，设计实现并行程序首先要确定，哪些部分是需要并行的。通过回答一个基本问题：在这个程序中，有哪些部分我们是可以分别同时执行的,即可以找到最明显的可并行部分，另外，我们还需要保证经过并行的程序在每次运行都能产生和串行程序同样的结果。一般，我们所指"并行运行"往往并不严格要求“同时"，而是以一种异步的形式运行，所以在并行运行的结束处需要一次同步约束。所以，总的说来，并行版本的程序会在运行时产生一批可以并行执行的进程或者线程，分别执行不同的计算，在运行的结尾处同步结果。
+
+第二个需要考虑的问题是，如果已经找到了需要并行的部分，又该如何划分程序。一般来说，划分策略可以分为两类。
+
+第一类，称为任务并行，该名称在不同的写作和翻译过程中有多种叫法，但说的都是同样的事情：哪些指令可以同时互不影响的执行。比如说，一个进程可以负责处理输入数据，另外一个进程则可以执行进程0之前处理过的数据，这种执行模型十分常见，广泛应用在如服务器等大型多任务并发的情况中。
+
+第二类，称为数据并行。即将问题的数据域分割成几块分别由不同的处理器进行处理。比如一个二维的1000$\times$1000的方阵可以切割成若干个100$\times$100的子阵，分布在10$\times$10的处理器上分别进行运算。如果该处理是绝对并行的，理论上可以加速100倍。在科学计算中，数据并行的形式更为常见。
+
+任务并行和数据并行通常是结合出现的，更为通用的方式是采用流水线化的方式进行处理，让计算机的各个部分同时保持运转状态，在理想情况下，流水线化的方式会让吞吐量提高到流水线的深度倍数\cite{book:sourcebook}。
+
+\section{并行算法实现示例}
+根据以上对于并行程序设计的一些介绍，以下通过一个比较简单的矩阵乘法程序介绍并行程序的开发，使用OpenSHMEM实现。
+
+在科学与工程计算中，矩阵运算占据着相当重要的地位，其中，矩阵相乘、求解线性方程组和矩阵特征值问题是矩阵运算的核心。在许多用于高性能科学计算的计算机上，都配备着高效的运算库。以下，我们考虑的问题是
+\begin{equation}\label{eq:overview}
+C = A \times B
+\end{equation}
+假设在式~\ref{eq:overview}中，A是\begin{math}m \times q\end{math}的矩阵，B是\begin{math}q \times n\end{math}的矩阵，结果C是\begin{math}m \times n\end{math}的矩阵。
+
+\subsection{矩阵乘法串行版本}
+矩阵乘法的串行是数学意义上的矩阵相乘过程的直接实现。其伪代码形式如下所示。
+
+\begin{algorithm}
+\hline
+\caption{串行算法}\label{serial_version} 
+\hline
+\begin{algorithmic}[5]
+\Function{multiple\_matrics\_serial}{$A, B$}\Comment{矩阵A，B相乘的串行版本}
+\State $INIT(C)$
+\For{$i \gets 1,m$}
+	\For{$j \gets 1,n$}
+		\For{$k \gets 1,q$}
+			\Begin
+			\State $C[i][j] += A[i][k] \times B[k][j]$ \Comment{基本的乘加操作}
+			%	c[m][n] += a[m][k] * b[k][n]
+			\End
+		\EndFor
+	\EndFor
+\EndFor
+\State \textbf{return} $C$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+\hline
+
+可以看出，矩阵乘法的串行版本的时间复杂度为$O(n^3)$。同时，我们也可以从中看出串行的矩阵乘法存在着明显的可以优化的过程/数据并行部分。
+
+\subsection{简单的矩阵乘法并行算法}\label{subsec:simple_parallel}
+\newcounter{matrix_count}{subsection}
+\setcounter{matrix_count}{0}
+在展示并行版本的矩阵乘法算法之前，首先对之前的串行版本做一分析。在\ref{serial_version}中，可以看出，算法的3～9步存在着for语句，并且每一层for循环都不存在数据依赖关系，很明显这是可以并行的部分。
+
+在\ref{serial_version}中，最核心的基本执行语句是乘-加操作，并且不存在其他可以和乘-加操作的同时执行的操作，因此，矩阵乘法是一个典型的可以数据并行的计算过程。
+
+下一步，需要确定如何将数据，即输入矩阵进行划分。
+
+对于矩阵的划分存在几种方式\cite{book:zhang}。最直观的是对输入矩阵进行行列划分，然后分配给每个PE。如下两个矩阵分别表示将矩阵行分割和列分割。
+\begin{table}
+\begin{center}
+\caption{$A_{M,Q}$按行分割为两部分}
+\begin{math}
+\raggedleft
+%\[
+\left(\begin{array}{cccc}
+a_{1,1} & a_{1,2} & \cdots & a_{1,q} \\
+\vdots	& \cdots  &	\cdots	& \vdots	\\
+a_{\frac{m}{2},1} & a_{\frac{m}{2},2} & \cdots & a_{\frac{m}{2},q} \\
+\hline
+a_{\frac{m}{2}+1,1} & a_{\frac{m}{2}+1,2} & \cdots & a_{\frac{m}{2}+1,q} \\
+\vdots &	 \cdots & \cdots & \vdots \\
+a_{m,1} & a_{m,2} & \cdots & a_{m,4}
+\end{array}\right)
+%\]
+\end{math}
+\end{center}
+\end{table}
+\begin{table}
+\caption{$A_{M,Q}$按列分割为两部分}
+\begin{center}
+\begin{math}
+\raggedleft
+\left(\begin{array}{ccc|ccc}
+a_{1,1} & \cdots & a_{1,\frac{q}{2}} & a_{1,\frac{q}{2}+1} & \cdots & a_{1,q}\\
+a_{2,1} & \cdots & a_{2,\frac{q}{2}} & a_{2,\frac{q}{2}+1} & \cdots & a_{2,q}\\
+ & \vdots & & & \vdots &\\
+a_{m,1} & \cdots & a_{m,\frac{q}{2}} & a_{m,\frac{q}{2}+1} & \cdots & a_{m,q}
+\end{array}\right)
+%\]
+\end{math}
+\end{center}
+\end{table}
+在本节中，先实现一个较为简单的并行方式，将矩阵$A$按照行分割，同时矩阵$B$在多个进程中共享，最后由第一个进程负责输出结果。伪代码显示如下。
+\begin{algorithm}
+\hline
+\caption{行分割并行版本}\label{divide_row_version} 
+\hline
+\algnewcommand\algorithmicto{\ \textbf{to}\ }
+\algnewcommand\algorithmicin{\textbf{in}}
+\algnewcommand\ForEach[2]{\For{\textbf{each}\ \ #1 \algorithmicin\ \ #2}}
+\begin{algorithmic}[5]
+\Function{multiple\_matrics\_parallel}{$A, B$}\Comment{矩阵A，B相乘的简单并行版本}
+\State $INIT(C)$ 
+\ForEach{PE}{PE\_Set}\Comment{每个PE仅需要处理Block中部分A矩阵}
+	\State $Block \gets \frac{m}{q}\times rank \algorithmicto \frac{m}{q}\times rank+1$
+	\ForEach{row}{Block}
+		\State $C[indexof(row)][*] \gets multiple\_vector\_matrix(row,B)$
+	\EndFor
+\EndFor
+\State \textbf{return} $C$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+\hline
+
+伪代码忽略了进程间数据通信的部分。在MPI的实现中，需要在计算开始前显式的分发数据，一般地为了减少通信开销，在程序运行的时候，矩阵数据并不存在同一个处理器的内存中，而是分布在各个处理器中，处理器只对本地的数据进行计算，最后将结果发给某个处理器进行统一的显示。
+
+然而在OpenSHMEM中，由于Symmetric Memory的概念，这部分数据如果是全局的，则对所有PE都可见，省略了分发数据的通信开销。至于数据具体存在多份备份还是一份备份，则与具体实现有关。关于此处实现，使用虚拟内存映射以及写时拷贝技术(Copy-On-Write,COW)可以有效的节约内存，减少通信开销\cite{jour:intra-node}。
+\subsection{矩阵乘法的Connon算法}
+另外，还存在一种行列分割结合的棋盘式分割的方式，如下所示。
+\begin{table}
+\caption{$A_{M,Q}$棋盘分割}\label{table:cross}
+\begin{center}
+\[
+\left(\begin{array}{ccc|ccc}
+a_{1,1} & \cdots & a_{1,\frac{q}{2}} & a_{1,\frac{q}{2}+1} & \cdots & a_{1,q} \\
+ & \vdots & & & \vdots & \\
+a_{\frac{m}{2},1} & \cdots & a_{\frac{m}{2},\frac{q}{2}} & a_{\frac{m}{2},\frac{q}{2}+1} & \cdots & a_{\frac{m}{2},q} \\
+\hline
+a_{\frac{m}{2}+1,1} & \cdots & a_{\frac{m}{2}+1,\frac{q}{2}} &a_{\frac{m}{2}+1,\frac{q}{2}+1} & \cdots & a_{\frac{m}{2}+1,q} \\
+& \vdots & & & \vdots & \\
+a_{m,1} & \cdots & a_{m,\frac{q}{2}} & a_{m,\frac{q}{2}+1} & \cdots & a_{m,q}
+\end{array}\right)
+\]
+\end{center}
+\end{table}
+在\ref{subsec:simple_parallel}中，讨论并且实现了对矩阵A行分割的计算并行化，并且给出了具体的实现，Connon算法采用的是如表\ref{table:cross}的棋盘分割方式，并且在计算过程中需要不断的在处理单元之间传递数据，因此，展示和实现Connon算法对于区分MPI和OpenSHMEM通信模型和优缺点，效果较\ref{divide_row_version}更为明显。
+
+基于表\ref{table:cross},Connon算法的伪代码描述如下。
+\begin{algorithm}
+\hline
+\caption{矩阵乘法的Cannon算法}
+\begin{algorithmicx}
+\hline
+\Function{Cannon}{$A,B$}\Comment{计算矩阵A，B相乘的Cannon算法}
+\State divide\_and\_distribute(A,B,PE\_set)\Comment{将A，B矩阵分割分发到PE\_set中的PE上}
+\EndFunction
+\end{algorithmicx}
+\hline
+\end{algorithm}
+\section{并行程序优化度量}
+并行编程的难点或许在于并行化似乎并不能直接等于性能提升，因此，为了充分利用机器的潜能，就需要在设计时充分考虑多个可能影响程序运行性能的因素。
+
+首先，就像使用时空复杂度度量算法性能，并行程序的性能也需要量化方法度量性能提升。在比较全面的性能理论中\cite{book:pattern},性能可以是以下几种度量：
+\begin{itemize}
+\item 减少运行一次计算所需要的时间，即减少延迟；
+\item 增加可以同时计算出结果的比例，即增大吞吐量；
+\item 减少一次计算的耗能。
+\end{itemize}
+出于简化的目的，本节仅讨论减少时间消耗带来的性能提升。
+
+两个用于评价性能和并行化的度量分别为加速比(Speedup)和有效性(Efficiency)。加速比用于评价同样的计算运行在单核平台上和对核平台上的延迟消耗：
+\begin{equation}\label{eq:speedup}
+speedup = S_P = \frac{T_1}{T_P}
+\end{equation}
+在式\ref{eq:speedup}中，$T_1$表示运行在单核平台上所需的完成时间，$T_P$表示使用P个进程的情况下所需的完成时间。
+
+有效性则是加速比除以参与运算的进程数量：
+\begin{equation}\label{eq:efficiency}
+efficiency = \frac{S_P}{P} = \frac{T_1}{PT_P}
+\end{equation}
+
